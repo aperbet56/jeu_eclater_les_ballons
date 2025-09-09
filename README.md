@@ -6,7 +6,7 @@ Création du jeu : éclater les ballons en HTML5, CSS3 et JavaScript. Pour écla
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/jeu_eclater_les_ballons/
 
 ## Projet développé avec
 
