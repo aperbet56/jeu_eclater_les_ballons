@@ -1,0 +1,149 @@
+/**** Importation des polices Story Script et TASA Explorer ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&family=TASA+Explorer:wght@400..800&display=swap');
+
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+}
+
+/**** body ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    cursor: url("img/new-cursor.png"), auto;
+    font-family: "TASA Explorer", sans-serif;
+}
+
+/**** header, footer ****/
+
+header,
+footer {
+    padding: 15px;
+}
+
+/**** header ****/
+
+.main__title {
+    font-size: 30px;
+    margin: 0;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: center;
+}
+
+/**** main ****/
+
+.main__content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**** section container ****/
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.container__title {
+    text-transform: uppercase;
+    color: #000380;
+    padding: 50px 15px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.balloon__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-inline: 10px;
+}
+
+.balloon__gallery div {
+    width: 136px;
+    height: 138px;
+    border-radius: 100%;
+    text-align: center;
+    color: #ff0000;
+    font-size: 24px;
+    font-family: "Story Script", sans-serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 5px 3px 0;
+}
+
+
+.balloon:nth-child(1),
+.balloon:nth-child(4),
+.balloon:nth-child(7),
+.balloon:nth-child(10) {
+    background-color: #ffd700;
+}
+
+.balloon:nth-child(2),
+.balloon:nth-child(5),
+.balloon:nth-child(8),
+.balloon:nth-child(11) {
+    background-color: #00ffff;
+}
+
+.balloon:nth-child(3),
+.balloon:nth-child(6),
+.balloon:nth-child(9),
+.balloon:nth-child(12) {
+    background-color: #ea00ff;
+}
+
+.yay-no-balloons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+
+.congrets {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.replay__btn {
+    background-color: #ff0000;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    color: #f7f7f7;
+    font-size: 20px;
+    font-family: "TASA Explorer", sans-serif;
+    width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/**** footer ****/
+
+.footer__text {
+    font-size: 20px;
+    text-align: center;
+}
