@@ -31,6 +31,8 @@ document.addEventListener("click", (e) => {
     // Incrémentation de la variable popped
     popped++;
     console.log(popped);
+    const audio = new Audio("sounds/pop_effect.mp3");
+    audio.play();
     // Appel de la fonction checkAllPopped
     checkAllPopped();
   }
