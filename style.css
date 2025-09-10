@@ -43,6 +43,7 @@ footer {
     text-transform: capitalize;
     font-style: italic;
     text-align: center;
+    color: #181818;
 }
 
 /**** main ****/
@@ -63,7 +64,7 @@ footer {
 
 .container__title {
     text-transform: uppercase;
-    color: #000380;
+    color: #2e2e2e;
     padding: 50px 15px;
     font-size: 26px;
     text-align: center;
@@ -97,21 +98,21 @@ footer {
 .balloon:nth-child(4),
 .balloon:nth-child(7),
 .balloon:nth-child(10) {
-    background-color: #ffd700;
+    background-color: #4fc4cf;
 }
 
 .balloon:nth-child(2),
 .balloon:nth-child(5),
 .balloon:nth-child(8),
 .balloon:nth-child(11) {
-    background-color: #00ffff;
+    background-color: #fbdd74;
 }
 
 .balloon:nth-child(3),
 .balloon:nth-child(6),
 .balloon:nth-child(9),
 .balloon:nth-child(12) {
-    background-color: #ea00ff;
+    background-color: #994ff3;
 }
 
 .yay-no-balloons {
@@ -129,11 +130,11 @@ footer {
 }
 
 .replay__btn {
-    background-color: #ff0000;
+    background-color: #4fc4cf;
     padding: 12px;
     text-align: center;
     border-radius: 8px;
-    color: #f7f7f7;
+    color: #fffffe;
     font-size: 20px;
     font-family: "TASA Explorer", sans-serif;
     width: 200px;
@@ -146,4 +147,5 @@ footer {
 .footer__text {
     font-size: 20px;
     text-align: center;
+    color: #181818;
 }
