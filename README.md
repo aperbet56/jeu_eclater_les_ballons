@@ -1,4 +1,4 @@
-## JEU : ECLATER LES BALLONS 🎈
+## JEU : ECLATEZ LES BALLONS 🎈
 
 ## Le challenge
 
