@@ -23,7 +23,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #f7f7f7;
+    background-color: #fffffe;
     cursor: url("img/new-cursor.png"), auto;
     font-family: "TASA Explorer", sans-serif;
 }

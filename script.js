@@ -26,7 +26,7 @@ const checkAllPopped = () => {
 // Ecoute de l'événement "click" sur le document
 document.addEventListener("click", (e) => {
   if (e.target.className === "balloon") {
-    e.target.style.backgroundColor = "#f7f7f7";
+    e.target.style.backgroundColor = "#fffffe";
     e.target.textContent = "POP !";
     // Incrémentation de la variable popped
     popped++;
