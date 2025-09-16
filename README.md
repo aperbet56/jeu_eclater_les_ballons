@@ -1,5 +1,7 @@
 ## JEU : ECLATEZ LES BALLONS 🎈
 
+![Design preview for the jeu : eclater les ballons project](./img/banner.PNG)
+
 ## Le challenge
 
 Création du jeu : éclater les ballons en HTML5, CSS3 et JavaScript. Pour éclater les ballons, il suffit à l'internaute de leur cliquer dessus.
