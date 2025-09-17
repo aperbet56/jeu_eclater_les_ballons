@@ -1,6 +1,6 @@
 ## JEU : ECLATEZ LES BALLONS 🎈
 
-![Design preview for the jeu : eclater les ballons project](./img/banner.PNG)
+![Design preview for the jeu : eclater les ballons project](./img/preview.png)
 
 ## Le challenge
 
